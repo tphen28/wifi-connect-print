@@ -12,7 +12,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://*.tplinkcloud.com/omada/*/static/printVoucher.html?*"],
+      "matches": ["https://*.ictcloud.network/omada/*/static/printVoucher.html?*"],
       "css": ["print.css"],
       "js": ["print.js"]
     }
